@@ -1,4 +1,4 @@
 jackalope.io
 ============
 
-A JSON Specification Generator
+A JSON Schema Generator
