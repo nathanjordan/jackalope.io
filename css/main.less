@@ -1,0 +1,55 @@
+@textColor: #eee;
+
+@objectBackground:#d9edf7;
+@objectBorder:#bce8f1;
+
+@arrayBackground:#fcf8e3;
+@arrayBorder:#fbeed5;
+
+@propertyColor:#222;
+
+.container {
+    padding:15px;
+    max-width:none;
+}
+
+.treeView {
+    padding: 0;
+}
+
+.propertyView {
+    padding: 0;
+}
+
+.jsonRoot {
+    font-size:18px;
+    color:@propertyColor;
+}
+
+.list-group-item {
+    border-radius:0 !important;
+    border-right:none;
+    padding: 0 0 0 15px;
+    background-color:transparent;
+    border-color:inherit;
+    .name {
+        display:block;
+        margin:5px;
+    }
+}
+
+.list-group {
+    padding-right:0;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.jsonObject {
+    background-color: @objectBackground;
+    border-color: @objectBorder;
+}
+
+.jsonArray {
+    background-color: @arrayBackground;
+    border-color: @arrayBorder;
+}

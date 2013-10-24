@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jackalope.io &bull; The JSON Schema Generator</title>
+    <meta name="description" content="jackalope.io is a JSON Schema generator">
+    <meta name="author" content="Nathan Jordan">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet/less" type="text/css" href="/css/main.less" />
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">jackalope.io</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="panel panel-default col-xs-8 treeView">
+          <div class="panel-heading">
+            <h3 class="panel-title">JSON Tree</h3>
+          </div>
+          <div class="panel-body">
+            <ul class="list-group json jsonObject jsonRoot">
+                <li class="list-group-item">
+                    <span class="name">I'm a leaf!</span>
+                </li>
+                <li class="list-group-item">
+                    <ul class="list-group json jsonArray">
+                        <li class="list-group-item">
+                            <span class="name">I'm a leaf!</span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item">
+                    <span class="name">I'm a leaf!</span>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default col-xs-4 propertyView">
+          <div class="panel-heading">
+            <h3 class="panel-title">Properties</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+    </div>
+    <script src="/js/lib/less.min.js"></script>
+    <script src="/js/lib/jquery.min.js"></script>
+    <script src="/js/lib/bootstrap.min.js"></script>
+</body>
+</html>
